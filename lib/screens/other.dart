@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:web_dashboard_practice/contorllers/counter_controller.dart';
+import 'package:web_dashboard_practice/controllers/counter_controller.dart';
 
 class OtherScreen extends StatelessWidget {
   final CounterController _counterController = Get.find();

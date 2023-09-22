@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:web_dashboard_practice/contorllers/counter_controller.dart';
+import 'package:web_dashboard_practice/controllers/counter_controller.dart';
 import 'package:web_dashboard_practice/screens/other.dart';
 
 class HomeScreen extends StatelessWidget {

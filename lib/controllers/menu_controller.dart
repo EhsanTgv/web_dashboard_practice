@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:web_dashboard_practice/constants/style.dart';
@@ -7,7 +6,8 @@ import 'package:web_dashboard_practice/routing/routes.dart';
 class MenuController extends GetxController {
   static MenuController instance = Get.find();
   var activeItem = OverViewPageRoute.obs;
-  var hoverItem = ''.obs;
+
+  var hoverItem = "".obs;
 
   changeActiveItemTo(String itemName) {
     activeItem.value = itemName;

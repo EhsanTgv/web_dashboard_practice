@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:web_dashboard_practice/helpers/local_navigator.dart';
+import 'package:web_dashboard_practice/widgets/side_menu.dart';
 
 class LargeScreen extends StatelessWidget {
   const LargeScreen({super.key});
@@ -9,9 +10,7 @@ class LargeScreen extends StatelessWidget {
     return Row(
       children: [
         Expanded(
-          child: Container(
-            color: Colors.red,
-          ),
+          child: SideMenu(),
         ),
         Expanded(
           flex: 5,

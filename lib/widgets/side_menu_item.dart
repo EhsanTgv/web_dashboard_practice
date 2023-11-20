@@ -5,7 +5,7 @@ import 'package:web_dashboard_practice/widgets/vertical_menu_item.dart';
 
 class SideMenuItem extends StatelessWidget {
   final String itemName;
-  final Function onTap;
+  final Function() onTap;
 
   const SideMenuItem({
     required this.itemName,
